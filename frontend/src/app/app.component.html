@@ -1,0 +1,23 @@
+<mat-drawer-container class="example-container">
+  <mat-drawer class="sidenav" mode="side" opened>
+    <mat-list role="list" class="sidenav-items">
+      <mat-list-item role="listitem" class="nav-link">
+        <button mat-menu-item routerLink="/">Home</button>
+      </mat-list-item>
+      <mat-list-item role="listitem" class="nav-link">
+          <button mat-menu-item routerLink="/country">Countries</button>
+      </mat-list-item>
+      <mat-list-item role="listitem" class="nav-link">
+          <button mat-menu-item routerLink="/city">Cities</button>
+      </mat-list-item>
+      <mat-list-item role="listitem" class="nav-link">
+        <button mat-menu-item routerLink="/country-city">Country X City</button>
+    </mat-list-item>
+    </mat-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <router-outlet>
+    </router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
+

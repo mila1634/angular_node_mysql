@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+.table {
+    width: 80%;
+    box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.029);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+  
+th:not(:first-child), 
+td:not(:first-child) {
+    width: 25%;
+}
+  
+th:first-child,
+td:first-child {
+    width: 10%;
+}
+  
+  tr:not([mat-header-row]):hover {
+    background-color: #f5f5f5;
+  }
+  
